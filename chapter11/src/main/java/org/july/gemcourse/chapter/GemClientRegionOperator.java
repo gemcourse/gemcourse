@@ -14,7 +14,7 @@ import java.util.Map;
 public class GemClientRegionOperator {
     private final static String locatorAddress = "localhost";
     private final static int  locatorPort = 10334;
-
+    //main
     public static void main(String[] args) throws Exception {
         ClientCache cache = new ClientCacheFactory()
                 .addPoolLocator(locatorAddress, locatorPort)
